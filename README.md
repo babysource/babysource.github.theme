@@ -25,8 +25,10 @@ Default config:
 
 ``` yaml
 menu:
-  Home: /
-  Archives: /archives
+  home:
+  archives: archives
+  projects: projects
+  about: about
 
 widgets:
 - search
