@@ -77,8 +77,6 @@ rss:
 
 ### Gallery Post
 
-![](http://i.minus.com/ibp6Hbytwgof9y.jpg)
-
 ```
 ---
 layout: photo
@@ -91,8 +89,6 @@ photos:
 
 ### Link Post
 
-![](http://i.minus.com/i7hBbGqh14EWo.png)
-
 ```
 ---
 layout: link
@@ -103,11 +99,7 @@ link: http://www.google.com/
 
 ### Tweet Widget
 
-![](http://i.minus.com/iMC8EyF9y0Y3y.PNG)
-
 ### Fancybox
-
-![](http://i.minus.com/iHv7h7rZNqHvo.PNG)
 
 [Hexo]: http://zespia.tw/hexo/
 [AddThis]: https://www.addthis.com
