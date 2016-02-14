@@ -1,18 +1,18 @@
-# Light
+# Light-baby
 
-Default theme for [Hexo].
+Custom theme for [Hexo].
 
 ## Install
 
 Execute the following command and modify `theme` in `_config.yml` to `light`.
 
 ```
-git clone https://github.com/hexojs/hexo-theme-light.git themes/light
+git clone https://github.com/babysource/hexo-theme-light-baby.git themes/light
 ```
 
 ## Update
 
-Execute the following command to update Light.
+Execute the following command to update Light-baby.
 
 ```
 cd themes/light
