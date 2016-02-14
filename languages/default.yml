@@ -1,12 +1,17 @@
-categories: Categories
-search: Search
+home: Home
 tags: Tags
-tagcloud: Tag Cloud
+about: About
 tweets: Tweets
+search: Search
+archives: Archives
+projects: Projects
+tagcloud: Tag Cloud
+categories: Categories
 prev: Prev
 next: Next
+page: Page %d
 comment: Comments
 archive_a: Archives
 archive_b: "Archives: %s"
-page: Page %d
+excerpt_link: Read More
 recent_posts: Recent Posts

@@ -21,7 +21,7 @@
       <% if (index){ %>
         <% if (item.excerpt){ %>
           <div class="alignleft">
-            <a href="<%- config.root %><%- item.path %>#more" class="more-link"><%= theme.excerpt_link %></a>
+            <a href="<%- config.root %><%- item.path %>#more" class="more-link"><%= __('excerpt_link') %></a>
           </div>
         <% } %>
         <% if (item.comment && config.disqus_shortname){ %>

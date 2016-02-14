@@ -1,13 +1,13 @@
 menu:
-  Home:
-  Archives: archives
+  home:
+  archives: archives
+  projects: projects
+  about: about
 
 widgets:
 - search
 - category
-- tag
-
-excerpt_link: Read More
+- tagcloud
 
 twitter:
   username:
