@@ -4,10 +4,10 @@ Custom theme for [Hexo].
 
 ## Install
 
-Execute the following command and modify `theme` in `_config.yml` to `light`.
+Execute the following command and modify `theme` in `_config.yml` to `light-baby`.
 
 ```
-git clone https://github.com/babysource/hexo-theme-light-baby.git themes/light
+git clone https://github.com/babysource/hexo-theme-light-baby.git themes/light-baby
 ```
 
 ## Update
@@ -15,7 +15,7 @@ git clone https://github.com/babysource/hexo-theme-light-baby.git themes/light
 Execute the following command to update Light-baby.
 
 ```
-cd themes/light
+cd themes/light-baby
 git pull
 ```
 
