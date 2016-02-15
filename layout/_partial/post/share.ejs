@@ -1,18 +1,279 @@
-<% if (theme.addthis.enable){ %>
+<% if (theme.share_provider == "baidu" && theme.share_baidu) { %>
+  <div class="bdsharebuttonbox" data-tag="share_1">
+    <% if (theme.share_baidu.mshare) { %>
+        <a class="bds_mshare" data-cmd="mshare"></a>
+    <% } %>
+    <% if (theme.share_baidu.weixin) { %>
+        <a class="bds_weixin" data-cmd="weixin"></a>
+    <% } %>
+    <% if (theme.share_baidu.sqq) { %>
+        <a class="bds_sqq" data-cmd="sqq"></a>
+    <% } %>
+    <% if (theme.share_baidu.fx) { %>
+        <a class="bds_fx" data-cmd="fx"></a>
+    <% } %>
+    <% if (theme.share_baidu.qzone) { %>
+        <a class="bds_qzone" data-cmd="qzone"></a>
+    <% } %>
+    <% if (theme.share_baidu.tqf) { %>
+        <a class="bds_tqf" data-cmd="tqf"></a>
+    <% } %>
+    <% if (theme.share_baidu.tieba) { %>
+        <a class="bds_tieba" data-cmd="tieba"></a>
+    <% } %>
+    <% if (theme.share_baidu.tsina) { %>
+        <a class="bds_tsina" data-cmd="tsina"></a>
+    <% } %>
+    <% if (theme.share_baidu.tqq) { %>
+        <a class="bds_tqq" data-cmd="tqq"></a>
+    <% } %>
+    <% if (theme.share_baidu.ibaidu) { %>
+        <a class="bds_ibaidu" data-cmd="ibaidu"></a>
+    <% } %>
+    <% if (theme.share_baidu.thexun) { %>
+        <a class="bds_thx" data-cmd="thx"></a>
+    <% } %>
+    <% if (theme.share_baidu.people) { %>
+        <a class="bds_people" data-cmd="people"></a>
+    <% } %>
+    <% if (theme.share_baidu.xinhua) { %>
+      <a class="bds_xinhua" data-cmd="xinhua"></a>
+    <% } %>
+    <% if (theme.share_baidu.renren) { %>
+        <a class="bds_renren" data-cmd="renren"></a>
+    <% } %>
+    <% if (theme.share_baidu.douban) { %>
+        <a class="bds_douban" data-cmd="douban"></a>
+    <% } %>
+    <% if (theme.share_baidu.huaban) { %>
+        <a class="bds_huaban" data-cmd="huaban"></a>
+    <% } %>
+    <% if (theme.share_baidu.kaixin) { %>
+        <a class="bds_kaixin001" data-cmd="kaixin001"></a>
+    <% } %>
+    <% if (theme.share_baidu.mogujie) { %>
+        <a class="bds_mogujie" data-cmd="mogujie"></a>
+    <% } %>
+    <% if (theme.share_baidu.meilishuo) { %>
+        <a class="bds_meilishuo" data-cmd="meilishuo"></a>
+    <% } %>
+    <% if (theme.share_baidu.bdxc) { %>
+        <a class="bds_bdxc" data-cmd="bdxc"></a>
+    <% } %>
+    <% if (theme.share_baidu.bdysc) { %>
+        <a class="bds_bdysc" data-cmd="bdysc"></a>
+    <% } %>
+    <% if (theme.share_baidu.h163) { %>
+        <a class="bds_h163" data-cmd="h163"></a>
+    <% } %>
+    <% if (theme.share_baidu.isohu) { %>
+        <a class="bds_isohu" data-cmd="isohu"></a>
+    <% } %>
+    <% if (theme.share_baidu.tianya) { %>
+        <a class="bds_ty" data-cmd="ty"></a>
+    <% } %>
+    <% if (theme.share_baidu.yaolan) { %>
+        <a class="bds_yaolan" data-cmd="yaolan"></a>
+    <% } %>
+    <% if (theme.share_baidu.hexun) { %>
+        <a class="bds_hx" data-cmd="hx"></a>
+    <% } %>
+    <% if (theme.share_baidu.iguba) { %>
+        <a class="bds_iguba" data-cmd="iguba"></a>
+    <% } %>
+    <% if (theme.share_baidu.wealink) { %>
+        <a class="bds_wealink" data-cmd="wealink"></a>
+    <% } %>
+    <% if (theme.share_baidu.duitang) { %>
+        <a class="bds_duitang" data-cmd="duitang"></a>
+    <% } %>
+    <% if (theme.share_baidu.diandian) { %>
+        <a class="bds_diandian" data-cmd="diandian"></a>
+    <% } %>
+    <% if (theme.share_baidu.twitter) { %>
+        <a class="bds_twi" data-cmd="twi"></a>
+    <% } %>
+    <% if (theme.share_baidu.facebook) { %>
+        <a class="bds_fbook" data-cmd="fbook"></a>
+    <% } %>
+    <% if (theme.share_baidu.linkedin) { %>
+        <a class="bds_linkedin" data-cmd="linkedin"></a>
+    <% } %>
+    <% if (theme.share_baidu.youdao) { %>
+        <a class="bds_youdao" data-cmd="youdao"></a>
+    <% } %>
+    <% if (theme.share_baidu.qingbiji) { %>
+        <a class="bds_qingbiji" data-cmd="qingbiji"></a>
+    <% } %>
+    <% if (theme.share_baidu.sdo) { %>
+        <a class="bds_sdo" data-cmd="sdo"></a>
+    <% } %>
+    <% if (theme.share_baidu.evernote) { %>
+        <a class="bds_evernotecn" data-cmd="evernotecn"></a>
+    <% } %>
+    <% if (theme.share_baidu.copy) { %>
+        <a class="bds_copy" data-cmd="copy"></a>
+    <% } %>
+    <% if (theme.share_baidu.email) { %>
+        <a class="bds_mail" data-cmd="mail"></a>
+    <% } %>
+    <% if (theme.share_baidu.print) { %>
+        <a class="bds_print" data-cmd="print"></a>
+    <% } %>
+    <a class="bds_more" data-cmd="more"></a>
+    <a class="bds_count" data-cmd="count"></a>
+  </div>
+  <script>
+    window._bd_share_config = {
+      "common" : {
+        "bdMini" : "2",
+        "bdStyle" : "0",
+        "bdMiniList" : (function(){
+          var shares = [];
+          <% if (!theme.share_baidu.mshare) { %>
+              shares.push("mshare");
+          <% } %>
+          <% if (!theme.share_baidu.weixin) { %>
+              shares.push("weixin");
+          <% } %>
+          <% if (!theme.share_baidu.sqq) { %>
+              shares.push("sqq");
+          <% } %>
+          <% if (!theme.share_baidu.fx) { %>
+              shares.push("fx");
+          <% } %>
+          <% if (!theme.share_baidu.qzone) { %>
+              shares.push("qzone");
+          <% } %>
+          <% if (!theme.share_baidu.tqf) { %>
+              shares.push("tqq");
+          <% } %>
+          <% if (!theme.share_baidu.tieba) { %>
+              shares.push("tieba");
+          <% } %>
+          <% if (!theme.share_baidu.tsina) { %>
+              shares.push("tsina");
+          <% } %>
+          <% if (!theme.share_baidu.tqq) { %>
+              shares.push("tqq");
+          <% } %>
+          <% if (!theme.share_baidu.ibaidu) { %>
+              shares.push("ibaidu");
+          <% } %>
+          <% if (!theme.share_baidu.thexun) { %>
+              shares.push("thx");
+          <% } %>
+          <% if (!theme.share_baidu.people) { %>
+              shares.push("people");
+          <% } %>
+          <% if (!theme.share_baidu.xinhua) { %>
+              shares.push("xinhua");
+          <% } %>
+          <% if (!theme.share_baidu.renren) { %>
+              shares.push("renren");
+          <% } %>
+          <% if (!theme.share_baidu.douban) { %>
+              shares.push("douban");
+          <% } %>
+          <% if (!theme.share_baidu.huaban) { %>
+              shares.push("huaban");
+          <% } %>
+          <% if (!theme.share_baidu.kaixin) { %>
+              shares.push("kaixin001");
+          <% } %>
+          <% if (!theme.share_baidu.mogujie) { %>
+              shares.push("mogujie");
+          <% } %>
+          <% if (!theme.share_baidu.meilishuo) { %>
+              shares.push("meilishuo");
+          <% } %>
+          <% if (!theme.share_baidu.bdxc) { %>
+              shares.push("bdxc");
+          <% } %>
+          <% if (!theme.share_baidu.bdysc) { %>
+              shares.push("bdysc");
+          <% } %>
+          <% if (!theme.share_baidu.h163) { %>
+              shares.push("h163");
+          <% } %>
+          <% if (!theme.share_baidu.isohu) { %>
+              shares.push("isohu");
+          <% } %>
+          <% if (!theme.share_baidu.tianya) { %>
+              shares.push("ty");
+          <% } %>
+          <% if (!theme.share_baidu.yaolan) { %>
+              shares.push("yaolan");
+          <% } %>
+          <% if (!theme.share_baidu.hexun) { %>
+              shares.push("hx");
+          <% } %>
+          <% if (!theme.share_baidu.iguba) { %>
+              shares.push("iguba");
+          <% } %>
+          <% if (!theme.share_baidu.wealink) { %>
+              shares.push("wealink");
+          <% } %>
+          <% if (!theme.share_baidu.duitang) { %>
+              shares.push("duitang");
+          <% } %>
+          <% if (!theme.share_baidu.diandian) { %>
+              shares.push("diandian");
+          <% } %>
+          <% if (!theme.share_baidu.twitter) { %>
+              shares.push("twi");
+          <% } %>
+          <% if (!theme.share_baidu.facebook) { %>
+              shares.push("fbook");
+          <% } %>
+          <% if (!theme.share_baidu.linkedin) { %>
+              shares.push("linkedin");
+          <% } %>
+          <% if (!theme.share_baidu.youdao) { %>
+              shares.push("youdao");
+          <% } %>
+          <% if (!theme.share_baidu.qingbiji) { %>
+              shares.push("qingbiji");
+          <% } %>
+          <% if (!theme.share_baidu.sdo) { %>
+              shares.push("sdo");
+          <% } %>
+          <% if (!theme.share_baidu.evernote) { %>
+              shares.push("evernotecn");
+          <% } %>
+          <% if (!theme.share_baidu.copy) { %>
+              shares.push("copy");
+          <% } %>
+          <% if (!theme.share_baidu.email) { %>
+              shares.push("mail");
+          <% } %>
+          <% if (!theme.share_baidu.print) { %>
+              shares.push("print");
+          <% } %>
+          return shares.length > 0 ? shares : false;
+        }())
+      },
+      "share" : {
+        "bdSize" : "24"
+      }
+    };
+    with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+  </script>
+<% } else if(theme.share_provider == "addthis" && theme.share_addthis) { %>
   <div class="addthis addthis_toolbox addthis_default_style">
-    <% if (theme.addthis.facebook){ %>
+    <% if (theme.share_addthis.facebook) { %>
       <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
     <% } %>
-    <% if (theme.addthis.twitter){ %>
+    <% if (theme.share_addthis.twitter) { %>
       <a class="addthis_button_tweet"></a>
     <% } %>
-    <% if (theme.addthis.google){ %>
+    <% if (theme.share_addthis.google) { %>
       <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
     <% } %>
-    <% if (theme.addthis.pinterest){ %>
+    <% if (theme.share_addthis.pinterest){ %>
       <a class="addthis_button_pinterest_pinit" pi:pinit:layout="horizontal"></a>
     <% } %>
     <a class="addthis_counter addthis_pill_style"></a>
   </div>
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js<% if (theme.addthis.pubid){ %>#pubid=<%= theme.addthis.pubid %><% } %>"></script>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js<% if (theme.share_addthis.pubid){ %>#pubid=<%= theme.share_addthis.pubid %><% } %>"></script>
 <% } %>

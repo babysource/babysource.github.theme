@@ -1,5 +1,5 @@
 menu:
-  home:
+  home: 
   archives: archives
   projects: projects
   about: about
@@ -11,26 +11,61 @@ widgets:
 
 twitter:
   username:
-  show_replies: false
   tweet_count: 5
-
-addthis:
-  enable: true
-  pubid:
-  facebook: true
-  twitter: true
-  google: true
-  pinterest: true
+  show_replies: false
 
 fancybox: true
 
-google_analytics:
-rss:
+rss: https://babysource.github.io/atom.xml
 
-comment_provider: facebook
+github_code: https://github.com/babysource
+
+google_analytics: UA-73787468-1
+
+# Provider share
+share_provider: baidu
+
+# Baidu share
+share_baidu:
+  sqq: true
+  tqf: true
+  tqq: true
+  email: true
+  qzone: true
+  tieba: true
+  tsina: true
+  weixin: true
+  kaixin: true
+  douban: true
+  renren: true
+  mshare: true
+  youdao: true
+  twitter: true
+  facebook: true
+  linkedin: true
+
+# Addthis share
+share_addthis:
+  pubid:
+  google: true
+  twitter: true
+  facebook: true
+  pinterest: true
+
+# Provider comment
+comment_provider: disqus
+
+# Disqus comment
+comment_disqus:
+  short_name: wythe-blog
+
+# Duoshuo comment
+comment_duoshuo:
+  short_name:
+
 # Facebook comment
-facebook:
-  appid: 123456789012345
+comment_facebook:
+  appid:
   comment_count: 5
   comment_width: 840
   comment_colorscheme: light
