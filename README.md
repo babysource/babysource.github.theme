@@ -1,21 +1,21 @@
-# Light-baby
+# Babysource.github.theme
 
 Custom theme for [Hexo].
 
 ## Install
 
-Execute the following command and modify `theme` in `_config.yml` to `light-baby`.
+Execute the following command and modify `theme` in `_config.yml` to `babysource.github.theme`.
 
 ```
-git clone https://github.com/babysource/hexo-theme-light-baby.git themes/light-baby
+git clone https://github.com/babysource/babysource.github.theme.git themes/babysource.github.theme
 ```
 
 ## Update
 
-Execute the following command to update Light-baby.
+Execute the following command to update `babysource.github.theme`.
 
 ```
-cd themes/light-baby
+cd themes/babysource.github.theme
 git pull
 ```
 
