@@ -61,7 +61,7 @@ comment_disqus:
 
 # Duoshuo comment
 comment_duoshuo:
-  short_name:
+  short_name: wythe-blog
 
 # Facebook comment
 comment_facebook:
